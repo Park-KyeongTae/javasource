@@ -15,7 +15,7 @@ public class ProductDAO {
 
 	private Connection con;
 	private PreparedStatement pstmt;
-	private ResultSet rs;
+	private ResultSet rs; //데이터베이스 있는 결과가 이객체에 저장됨
 
 	// 전체 상품 조회
 	public List<ProductDTO> getList() {
