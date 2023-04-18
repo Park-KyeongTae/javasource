@@ -4,7 +4,8 @@
 .classpath
 .project
 # c로 시작하거나 r로 시작하거나 s로 시작하는 폴더 안 ignore 파일 무시
-[crsm]*/.gitignore   
+[a-z]*/.gitignore
+Servers/   
 
 ### Eclipse ###
 .metadata
